@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local outputs
+outputs/
+*.log
+
+# Datasets
+data/
+dataset/
+datasets/
+rgbd_dataset_*/
+*.bag
+*.ply
+*.pcd
+
+# Matplotlib / temporary files
+*.tmp
+
+#zip
+*.tgz
+*.tar.gz
+*.zip
