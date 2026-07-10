@@ -171,8 +171,9 @@ Estimated trajectory:
 Single-frame RGB-D point cloud:
 
 ![Point cloud example](assets/pointcloud_example.png)
-## Pairwise ICP Registration
 
-Red points represent the transformed source cloud, while blue points represent the target cloud.
+Pairwise ICP Registration：
 
 ![Pairwise ICP registration](assets/registration_example.png)
+
+Red points represent the transformed source cloud, while blue points represent the target cloud.
