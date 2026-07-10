@@ -161,3 +161,13 @@ depth_meters = raw_depth / 5000.0
 ### 轨迹越来越漂
 
 这是正常的。纯视觉里程计没有回环检测，误差会累计。
+
+## Demo
+
+Estimated trajectory:
+
+![Estimated trajectory](assets/trajectory_example.png)
+
+Single-frame RGB-D point cloud:
+
+![Point cloud example](assets/pointcloud_example.png)
