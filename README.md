@@ -1,6 +1,6 @@
 # RGB-D Visual Odometry Starter
 
-这是一个适合新手上手 SLAM 的 RGB-D 视觉里程计小项目。它支持 TUM RGB-D 数据集，包含：
+这是一个用来学习 SLAM 的 RGB-D 视觉里程计小项目。它支持 TUM RGB-D 数据集，包含：
 
 - 读取 RGB 图、深度图和时间戳关联文件
 - 深度图反投影为彩色点云
@@ -130,7 +130,7 @@ T_prev_curr
 T_world_curr = T_world_prev @ T_prev_curr
 ```
 
-## 7. 推荐学习顺序
+## 7. 推荐操作顺序和未来改进
 
 1. 先运行 `view_pointcloud.py`，确认你能看到单帧彩色点云。
 2. 运行 `run_pair_icp.py`，看两帧配准前后效果。
